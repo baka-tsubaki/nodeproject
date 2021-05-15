@@ -35,7 +35,7 @@ const server = http.createServer((req, res)=>{
             contentType = 'images/jpg';
             break;
         case '.svg':
-            contentType = 'images/svg'
+            contentType = 'image/svg+xml'
             break;    
     }
 
